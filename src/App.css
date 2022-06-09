@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -14,13 +15,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(210.69deg, #000000 29.02%, #5931AC 69.81%, rgba(239, 189, 60, 0.72) 112.42%);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -28,11 +24,45 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.banner-text {
+  font-weight: 700;
+  font-size: xx-large;
+  Width:471px;
+  Height: 140px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 130px;
+
+
+}
+
+.banner-img{
+Width:350px;
+Height:350px;
+Top:9px;
+Left:4px;
+}
+
+.gallery-text {
+  font-family: 'Roboto', sans-serif;
+  text-align: start;
+  margin-left: 30px ;
+  Width:348px;
+  Height:60px;
+}
+
+.gallery-button {
+  background-color: transparent;
+  margin: 10px;
+  border: transparent;
+  color: white;
+
+}
+.gallery-button:active{
+  border-bottom: white 2px solid;
 }
