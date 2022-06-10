@@ -1,0 +1,18 @@
+.gallery-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: start;
+    margin-left: 30px ;
+    Width:348px;
+    Height:60px;
+  }
+  
+  .gallery-button {
+    background-color: transparent;
+    margin: 10px;
+    border: transparent;
+    color: white;
+  
+  }
+  .gallery-button:active{
+    border-bottom: white 2px solid;
+  }

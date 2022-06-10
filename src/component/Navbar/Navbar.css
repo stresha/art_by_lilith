@@ -1,0 +1,41 @@
+.filtros {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(https://i.postimg.cc/HsPfvZxd/Rectangle-28.png);
+  }
+  
+  .Option {
+    background-image: url(https://i.postimg.cc/HsPfvZxd/Rectangle-28.png);
+    border-radius: 25px;
+    margin: 0 50px;
+    padding: 12px;
+    font-size: 8px;
+    order: 1;
+    text-decoration: none;
+    display: flex;
+    flex-grow: 0;
+    justify-content: flex-start;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+  .ActiveOption {
+    background-image: url(https://i.postimg.cc/HsPfvZxd/Rectangle-28.png);
+    border-radius: 25px;
+    margin: 0 50px;
+    padding: 12px;
+    font-size: 8px;
+    order: 1;
+    text-decoration: none;
+    display: flex;
+    flex-grow: 0;
+    justify-content: flex-end;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+   
+   
+  }
+  
