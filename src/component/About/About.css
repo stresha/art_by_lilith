@@ -1,0 +1,18 @@
+.about{
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+  
+}
+
+.about-text {
+    text-align: start;
+    margin-left: 16.8%;
+    margin-right: 16.8%;
+}
+
+
+.about-img {
+    margin: 20px;
+    height:60% ;
+    
+}

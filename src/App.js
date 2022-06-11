@@ -4,7 +4,8 @@ import Banner from './component/Banner/Banner';
 import Gallery from './component/Gallery/Gallery';
 import NavBar from './component/Navbar/Navbar';
 import About from './component/About/About';
-import Get from './component/Get/Get';
+// import Get from './component/Get/Get';
+import Footer from './component/Footer/Footer';
 
 function App() {
   return (
@@ -12,15 +13,15 @@ function App() {
       <header className="App-header">
       <BrowserRouter>
       <NavBar/>
+      <Banner/>
       <Routes>
-     
-       <Route path='/Gallery' element={<Gallery />} />
+      <Route path='/Gallery' element={<Gallery />} />
       <Route path='/About' element={<About />} />
-      <Route path='/Get' element={<Get />} />
+      {/* <Route path='/Get' element={<Get />} /> */}
       </Routes>
       </BrowserRouter>
-      <Banner/>
       
+      <Footer/>
       </header>
     </div>
   );

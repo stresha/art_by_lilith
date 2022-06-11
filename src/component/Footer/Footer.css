@@ -1,0 +1,10 @@
+.footer {
+    padding: 10px;
+    background-color: #000000 ;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.footer-text{
+    font-family: 'Roboto', sans-serif;}
