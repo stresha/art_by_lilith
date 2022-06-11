@@ -6,19 +6,23 @@ import NavBar from './component/Navbar/Navbar';
 import About from './component/About/About';
 // import Get from './component/Get/Get';
 import Footer from './component/Footer/Footer';
+import Carrusel from './component/Carrusel/Carrusel';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      
       <BrowserRouter>
       <NavBar/>
+      <Carrusel/>
       <Banner/>
       <Routes>
       <Route path='/Gallery' element={<Gallery />} />
       <Route path='/About' element={<About />} />
       {/* <Route path='/Get' element={<Get />} /> */}
       </Routes>
+      
       </BrowserRouter>
       
       <Footer/>
